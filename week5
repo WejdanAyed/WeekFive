@@ -1,0 +1,84 @@
+#Week5 , day27
+a = 200
+b = 33
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")
+m1 = 2
+h = 33
+print("M") if m1> h else print("H") 
+x = 31
+if x > 10:
+    print("Above,ten,")
+if x > 20:
+    print("and also above 20")
+else:
+    print("but not above 20.")
+
+
+#Week5 , day28
+i = 3
+while i < 3:
+    print(i)
+    if i ==5:
+        continue
+    print (i)
+
+m = 5
+while m > 3:
+    print(m)
+    if m == 3:
+        break
+    print(m)
+o = 2
+while o < 4:
+    if o==1:
+        print(o)
+    else:
+        print("o")
+
+
+#Week5, Day29
+fruits =["apple" , "banana" , "cherry"]
+for x1 in fruits:
+    print(x1)
+    if x1 == "banana":
+        break
+for x2 in "Wejdan":
+    print(x2)
+    if x2 == "j":
+        continue
+    print(x2)
+
+
+#Week5, day30
+for x3 in range (5,60, 10):
+    print(x3)
+for x4 in range(6):
+    print(x4)
+else:
+    print("Finally!")
+adj = ["red" , "big" , "tasty"]
+fruits1 = [ "apple", "banana", "cherry"]
+for x5 in adj:
+    for y1 in fruits1:
+        print(x5 , y1)
+
+
+#Week5 , day31
+def my_function( country = "Norway" ):
+    print ("I am from" + country )
+my_function("Sweden")
+my_function ("India")
+my_function ("Saudi")
+my_function ()
+
+
+#Week ,Day32&33
+for A in range (3 , 17 , 2 ):
+    for B in range ( 2 ,16 , 2 ):
+        print ( A ,B )
+ 
